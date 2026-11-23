@@ -1,0 +1,31 @@
+# Nuxt dev/build outputs
+node_modules
+*.log*
+.nuxt
+nuxt.d.ts
+.output
+.unlighthouse
+.env
+.nitro
+.cache
+.output
+dist
+.data
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+*.watchman-cookie*
+
+server/assets/_locales

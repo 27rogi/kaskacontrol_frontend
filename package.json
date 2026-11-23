@@ -1,0 +1,41 @@
+{
+  "name": "kaskacontrol_frontend",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^10.0.0",
+    "@elysia/eden": "^1.4.10",
+    "@nuxt/eslint": "1.17.0",
+    "@nuxt/ui": "4.12.2",
+    "@unocss/nuxt": "66.13.0",
+    "@vueuse/nuxt": "15.0.0",
+    "date-fns": "^4.4.0",
+    "elysia": "^1.4.32",
+    "eslint": "^10.15.0",
+    "eslint-plugin-sort": "^4.0.0",
+    "nuxt": "^4.6.4",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^6.0.3",
+    "vue": "^3.5.45",
+    "vue-router": "^5.5.1"
+  },
+  "trustedDependencies": [
+    "esbuild",
+    "unrs-resolver",
+    "vue-demi"
+  ],
+  "devDependencies": {
+    "@types/bun": "^1.4.4",
+    "@unocss/preset-web-fonts": "^66.13.0",
+    "eslint-plugin-format": "^2.0.1",
+    "nuxt-elysia": "^0.2.0",
+    "vue-tsc": "^3.3.14"
+  }
+}
